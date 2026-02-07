@@ -1,0 +1,15 @@
+{
+    "name": "webkul/mercadopago",
+    "autoload": {
+        "psr-4": {
+            "Webkul\\MercadoPago\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\MercadoPago\\Providers\\MercadoPagoServiceProvider"
+            ]
+        }
+    }
+}
